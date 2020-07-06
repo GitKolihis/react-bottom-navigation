@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet, ScrollView, Text } from "react-native";
+import { View, StyleSheet, ScrollView, Text, ImageBackground, Dimensions } from "react-native";
 import { Avatar, List } from "react-native-paper";
 import {
   FontAwesome5,
@@ -11,155 +11,91 @@ const ProfileScreen = (props) => {
   return (
     <View style={styles.container}>
       <View style={styles.bodyProfileView}>
-        <View style={styles.profileDetails}>
-          <View style={styles.DetailsStart}>
-            <ScrollView>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-              <View style={{ flexDirection: "row" }}>
-                <Ionicons name="ios-navigate" size={25} color="black" />
-                <Text>Adelani Olanrewaju Israel</Text>
-              </View>
-            </ScrollView>
+      <View style={{flex:1,minHeight:'70%', borderWidth:1, maxHeight:'70%'}}>
+        <ScrollView>
+          <View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju Israel</Text>
           </View>
-        </View>
+          <View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju Israel</Text>
+          </View>
+          <View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju Israel</Text>
+          </View>
+          <View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju Israel</Text>
+          </View>
+          <View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju Israel</Text>
+          </View>
+          <View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju Israel</Text>
+          </View>
+          <View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View>
+          <View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View><View style={{ flexDirection: "row" }}>
+            <Ionicons name="ios-navigate" size={25} color="black" />
+            <Text>Adelani Olanrewaju 6</Text>
+          </View>
+        </ScrollView></View>
       </View>
+      <View style={{height:Dimensions.get('window').width*0.2, width:Dimensions.get('window').width*0.2, borderRadius:Dimensions.get('window').width*0.1, position:'absolute', top:50, left:Dimensions.get('window').width*0.4, overflow:'hidden'}}>
+        <ImageBackground source={{uri:'https://colabnotes.com/Cloud.png'}} style={{width:'100%', height:'100%', justifyContent:'center', flex:1}} resizeMode="cover">
 
-      <View style={styles.profileHead}>
-        <View style={styles.profileImage}>
-          <Avatar.Image
-            size={200}
-            colol="white"
-            source={require("../../assets/kolihis.jpeg")}
-          />
-        </View>
+        </ImageBackground>
       </View>
     </View>
   );
@@ -170,80 +106,17 @@ export default ProfileScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: "column",
-    paddingTop: 30,
+    // flexDirection: "column",
+    // paddingTop: 30,
     backgroundColor: "#EE5A0B",
+    justifyContent:'flex-end'
   },
-  headView: {
-    flexDirection: "row",
-    backgroundColor: "white",
-    height: 50,
-    shadowColor: "black",
-    shadowOpacity: 0.2,
-    shadowOffset: { width: 0, height: 0 },
-    elevation: 3,
-    shadowRadius: 1,
-    justifyContent: "center",
-  },
-  headText: {
-    alignContent: "center",
-    justifyContent: "center",
-    fontFamily: "serif",
-    fontSize: 30,
-    fontWeight: "500",
-    marginVertical: 10,
-  },
-  bodyProfileView: {
-    flex: 1,
-    flexDirection: "column",
-    justifyContent: "space-between",
-    marginTop: 100,
-    backgroundColor: "#EE5A0B",
-    marginBottom: 0,
-  },
-  profileHead: {
-    flexDirection: "row",
-    justifyContent: "center",
-    padding: 5,
-    marginBottom: 1000,
-  },
-  profileImage: {
-    marginTop: 10,
-    justifyContent: "center",
-  },
-  profileDetails: {
-    backgroundColor: "white",
-    height: 450,
-    flexDirection: "row",
-    marginBottom: 0,
-    marginTop: 20,
-  },
-  DetailsStart: {
-    marginTop: 110,
-    marginLeft: 30,
-  },
-  textHead: {
-    fontSize: 25,
-    color: "#100503",
-    fontFamily: "serif",
-    fontWeight: "bold",
-    fontStyle: "normal",
-    textAlign: "center",
-  },
-  text: {
-    fontSize: 20,
-    color: "#100503",
-    fontFamily: "serif",
-    fontWeight: "bold",
-  },
-  textInfo: {
-    fontSize: 12,
-    color: "#100503",
-    fontFamily: "serif",
-    fontWeight: "200",
-  },
-  MoveText: {},
-  scrollStyle: {
-    width: 400,
-  },
+  bodyProfileView:{
+    flex:1,
+    marginTop:100,
+    backgroundColor:'white',
+    alignItems:'flex-start',
+    justifyContent:'flex-end'
+  }
+  
 });
